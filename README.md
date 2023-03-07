@@ -5,13 +5,13 @@ The app consists of two screens: A Main screen with a list of all the detected a
 
 The application:
 
-Includes the Main screen with a list of clickable asteroids
-Includes a Details screen that displays the selected asteroid data once it’s clicked in the Main screen
+Includes the Main screen with a list of clickable asteroids.
+Includes a Details screen that displays the selected asteroid data once it’s clicked in the Main screen.
 Downloads and parses data from the NASA NeoWS (Near Earth Object Web Service) API.
-Once an asteroid is saved in the database, the list of asteroids is displayed
-The asteroids data is cached by using a worker, so it downloads and saves week asteroids in background when device is charging and wifi is enabled, as well as deleted the asteroids data of the previous day
+Once an asteroid is saved in the database, the list of asteroids is displayed.
+The asteroids data is cached by using a worker, so it downloads and saves week asteroids in background when device is charging and wifi is enabled, as well as deleted the asteroids data of the previous day.
 App works in multiple screen sizes and orientations, also it provides talk back and push button navigation.
-Instructions for using API
+Instructions for using API.
 To build this project the NASA NeoWS (Near Earth Object Web Service) API is used, which can be found here: https://api.nasa.gov/
 
 In order to run the app, you need an API Key which is provided for you in that same link, just fill the fields in the form and click Signup.
